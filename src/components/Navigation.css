@@ -1,0 +1,37 @@
+/* src/components/Navigation.css */
+
+.navigation {
+    background-color: #343a40;
+    padding: 10px 20px;
+  }
+  
+  .navigation-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .navigation-item {
+    margin: 0 10px;
+  }
+  
+  .navigation-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .navigation-link:hover {
+    background-color: #495057;
+  }
+  
+  .active {
+    background-color: #007bff;
+    color: #ffffff;
+  }
+  
